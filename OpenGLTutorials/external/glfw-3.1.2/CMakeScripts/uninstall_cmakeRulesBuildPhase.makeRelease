@@ -2,9 +2,9 @@
 # Custom rules for uninstall
 .SUFFIXES: 
 all: \
-	/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/glfw-3.1.2/CMakeFiles/uninstall
+	/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/glfw-3.1.2/CMakeFiles/uninstall
 
 
-/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/glfw-3.1.2/CMakeFiles/uninstall: 
+/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/glfw-3.1.2/CMakeFiles/uninstall: 
 	echo ""
-	/Applications/CMake.app/Contents/bin/cmake -P /Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/glfw-3.1.2/cmake_uninstall.cmake
+	/Applications/CMake.app/Contents/bin/cmake -P /Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/glfw-3.1.2/cmake_uninstall.cmake

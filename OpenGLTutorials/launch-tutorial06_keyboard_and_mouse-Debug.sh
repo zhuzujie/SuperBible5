@@ -1,6 +1,6 @@
 #!/bin/sh
 bindir=$(pwd)
-cd /Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/tutorial06_keyboard_and_mouse/
+cd /Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/tutorial06_keyboard_and_mouse/
 export 
 
 if test "x$1" = "x--debugger"; then
@@ -8,10 +8,10 @@ if test "x$1" = "x--debugger"; then
 	if test "x" = "xYES"; then
 		echo "r  " > $bindir/gdbscript
 		echo "bt" >> $bindir/gdbscript
-		GDB_COMMAND-NOTFOUND -batch -command=$bindir/gdbscript  /Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/Debug/tutorial06_keyboard_and_mouse 
+		GDB_COMMAND-NOTFOUND -batch -command=$bindir/gdbscript  /Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/Debug/tutorial06_keyboard_and_mouse 
 	else
-		"/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/Debug/tutorial06_keyboard_and_mouse"  
+		"/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/Debug/tutorial06_keyboard_and_mouse"  
 	fi
 else
-	"/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/Debug/tutorial06_keyboard_and_mouse"  
+	"/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/Debug/tutorial06_keyboard_and_mouse"  
 fi

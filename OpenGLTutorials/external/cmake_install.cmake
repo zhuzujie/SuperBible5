@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external
+# Install script for directory: /Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,13 +29,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/glfw-3.1.2/cmake_install.cmake")
-  include("/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
-  include("/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/assimp-3.0.1270/code/cmake_install.cmake")
-  include("/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake")
-  include("/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake")
-  include("/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake")
-  include("/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake")
+  include("/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/glfw-3.1.2/cmake_install.cmake")
+  include("/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
+  include("/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/assimp-3.0.1270/code/cmake_install.cmake")
+  include("/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake")
+  include("/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake")
+  include("/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake")
+  include("/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake")
 
 endif()
 

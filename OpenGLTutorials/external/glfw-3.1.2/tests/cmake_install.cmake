@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/glfw-3.1.2/tests
+# Install script for directory: /Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/glfw-3.1.2/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

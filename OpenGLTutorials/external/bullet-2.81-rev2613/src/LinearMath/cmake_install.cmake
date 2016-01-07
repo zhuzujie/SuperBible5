@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/bullet-2.81-rev2613/src/LinearMath
+# Install script for directory: /Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/bullet-2.81-rev2613/src/LinearMath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

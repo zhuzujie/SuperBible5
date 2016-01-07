@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code
+# Install script for directory: /Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,25 +29,25 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libassimp3.0-r1270-OGLtuts")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/assimp-3.0.1270/code/Debug/libassimp.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/assimp-3.0.1270/code/Debug/libassimp.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a")
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/assimp-3.0.1270/code/Release/libassimp.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/assimp-3.0.1270/code/Release/libassimp.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a")
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/assimp-3.0.1270/code/MinSizeRel/libassimp.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/assimp-3.0.1270/code/MinSizeRel/libassimp.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a")
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/external/assimp-3.0.1270/code/RelWithDebInfo/libassimp.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/external/assimp-3.0.1270/code/RelWithDebInfo/libassimp.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.a")
@@ -65,45 +65,45 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/assimp" TYPE FILE FILES
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/anim.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/ai_assert.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/camera.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/color4.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/color4.inl"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/config.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/defs.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/cfileio.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/light.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/material.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/material.inl"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.inl"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.inl"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/mesh.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/postprocess.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/quaternion.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/quaternion.inl"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/scene.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/texture.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/types.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/vector2.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/vector2.inl"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/vector3.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/vector3.inl"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/version.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/cimport.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/importerdesc.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Importer.hpp"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/DefaultLogger.hpp"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/ProgressHandler.hpp"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/IOStream.hpp"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/IOSystem.hpp"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Logger.hpp"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/LogStream.hpp"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/NullLogger.hpp"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/cexport.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Exporter.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/anim.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/ai_assert.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/camera.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/color4.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/color4.inl"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/config.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/defs.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/cfileio.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/light.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/material.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/material.inl"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.inl"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.inl"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/mesh.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/postprocess.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/quaternion.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/quaternion.inl"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/scene.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/texture.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/types.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/vector2.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/vector2.inl"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/vector3.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/vector3.inl"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/version.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/cimport.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/importerdesc.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Importer.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/DefaultLogger.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/ProgressHandler.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/IOStream.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/IOSystem.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Logger.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/LogStream.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/NullLogger.hpp"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/cexport.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Exporter.hpp"
     )
 endif()
 
@@ -117,9 +117,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/assimp/Compiler" TYPE FILE FILES
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Compiler/pushpack1.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Compiler/poppack1.h"
-    "/Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/pstdint.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Compiler/pushpack1.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/../include/assimp/Compiler/poppack1.h"
+    "/Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/external/assimp-3.0.1270/code/pstdint.h"
     )
 endif()
 

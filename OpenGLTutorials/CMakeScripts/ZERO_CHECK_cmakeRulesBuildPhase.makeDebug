@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/CMakeFiles/ZERO_CHECK
+	/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/CMakeFiles/ZERO_CHECK
 
 
-/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/CMakeFiles/ZERO_CHECK: 
+/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/CMakeScripts/ReRunCMake.make
+	make -f /Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/CMakeScripts/ReRunCMake.make

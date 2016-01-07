@@ -1,6 +1,6 @@
 #!/bin/sh
 bindir=$(pwd)
-cd /Volumes/macData/zlps/work/practice/ogl-OpenGL-tutorial/tutorial02_red_triangle/
+cd /Volumes/macData/zlps/work/practice/SuperBible5/ogl-OpenGL-tutorial/tutorial02_red_triangle/
 export 
 
 if test "x$1" = "x--debugger"; then
@@ -8,10 +8,10 @@ if test "x$1" = "x--debugger"; then
 	if test "x" = "xYES"; then
 		echo "r  " > $bindir/gdbscript
 		echo "bt" >> $bindir/gdbscript
-		GDB_COMMAND-NOTFOUND -batch -command=$bindir/gdbscript  /Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/Release/tutorial02_red_triangle 
+		GDB_COMMAND-NOTFOUND -batch -command=$bindir/gdbscript  /Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/Release/tutorial02_red_triangle 
 	else
-		"/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/Release/tutorial02_red_triangle"  
+		"/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/Release/tutorial02_red_triangle"  
 	fi
 else
-	"/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/Release/tutorial02_red_triangle"  
+	"/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/Release/tutorial02_red_triangle"  
 fi

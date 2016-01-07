@@ -2,9 +2,9 @@
 # Custom rules for ALL_BUILD
 .SUFFIXES: 
 all: \
-	/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/CMakeFiles/ALL_BUILD
+	/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/CMakeFiles/ALL_BUILD
 
 
-/Volumes/macData/zlps/work/practice/OpenGLTutorials_bin_XCode/CMakeFiles/ALL_BUILD: 
+/Volumes/macData/zlps/work/practice/SuperBible5/OpenGLTutorials/CMakeFiles/ALL_BUILD: 
 	echo ""
 	echo Build\ all\ projects
